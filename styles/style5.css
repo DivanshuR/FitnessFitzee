@@ -1,0 +1,41 @@
+
+
+
+body{
+	margin:0;
+	background-color: #EBF4F7;
+	}
+
+
+.main_wrapper{
+width:500px;
+height:auto;
+margin:auto;
+}
+
+.header_wrapper{
+width:500px;
+height:auto;
+margin:auto;
+}
+
+
+
+
+#products_box{
+float:center;
+
+}
+
+#single_product{
+float:right;
+margin-left:15px;
+padding:8px;
+}
+
+#single_product img{border:2px solid black;}
+
+
+
+
+

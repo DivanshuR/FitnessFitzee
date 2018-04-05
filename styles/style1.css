@@ -1,0 +1,189 @@
+
+
+
+body{
+	margin:0;
+	
+
+}
+
+.main_wrapper{
+width:1350px;
+height:auto;
+margin:auto;
+}
+
+.header_wrapper{
+width:1350px;
+height:auto;
+margin:auto;
+}
+
+
+		
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: orange; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body {padding: 25px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+.content_wrapper{
+width:1350px;
+margin:auto;
+background:orange;
+
+}
+ 
+#content_area{
+width:1200px;
+margin:auto;
+} 
+
+#sidebar{
+width:200px;
+float:left;
+
+}
+
+#sidebar_title{
+color:#EB430C;
+font-size:25px;
+font-family:Calibri (Body) MS;
+padding:15px;
+text-align:center;}
+
+#cats{
+padding:0;
+text-align:center;
+}
+
+#cats li {
+list-style:none;
+margin:30px;
+background:orange;
+width:150px;
+
+}
+
+#cats a{
+color:white;
+padding:8px;
+margin:5px;
+font-size:20px;
+font-family:Calibri (Body) MS;
+text-decoration:none;
+}
+
+#cats a:hover {
+color:red;
+font-weight:bolder;
+
+}
+
+#products_box{
+width:900px;
+text-align:center;
+margin-left:55px;
+margin-bottom:10px;
+margin-right:20px;
+padding-left:40px;
+}
+
+#single_product{
+float:right;
+margin-left:20px;
+padding:8px;
+}
+
+#single_product img{border:2px solid black;}
+
+
+
+#shopping_cart{
+width:1250px;
+height:50px;
+}
+
+
+
+#footer{
+width:1300px;
+
+clear:both;
+font-size:10px;
+display:center;
+margin-left:60px;
+margin-right:35px;
+
+
+}
+
+
